@@ -11,7 +11,6 @@ import finger_to_option
 
 import tkinter
 
-from myfunctions_compat import execute_this
 from PIL import Image, ImageTk
 from Timer import Timer
 
@@ -95,6 +94,5 @@ def identity_check_screen():
         root.update()
 
 
-@execute_this
 def testing():
     identity_check_screen()

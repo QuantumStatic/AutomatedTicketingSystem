@@ -1,12 +1,8 @@
 import cv2
 
-from myfunctions_compat import execute_this
 from HandTrackingTest import FindHands
 
 
-
-
-@execute_this
 def main() -> None:
     video_capture = cv2.VideoCapture(0)
     w_cam, h_cam = 640, 480

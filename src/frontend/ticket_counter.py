@@ -8,7 +8,6 @@ import tkinter
 import finger_to_option
 import constants
 
-from myfunctions_compat import execute_this
 from PIL import Image, ImageTk
 from Timer import Timer
 from typing import *
@@ -106,6 +105,5 @@ def num_tickets_screen():
         root.update()
 
 
-@execute_this
 def num_tickets_screen():
     num_tickets_screen()

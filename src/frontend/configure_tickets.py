@@ -10,7 +10,6 @@ import constants
 import ticket
 import time
 
-from myfunctions_compat import execute_this
 from PIL import Image, ImageTk, ImageDraw2
 from Timer import Timer
 from typing import *
@@ -207,6 +206,5 @@ def ticket_config_screen():
             time.sleep(2)
             pause_here = False
 
-# @execute_this
 def ticket_config_screen_test():
     ticket_config_screen()

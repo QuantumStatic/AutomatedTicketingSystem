@@ -11,8 +11,6 @@ from Timer import Timer
 
 from PIL import Image, ImageTk
 
-from myfunctions_compat import execute_this
-
 def empty_screen():
     """This Function renderes the empty screen."""
 
@@ -84,6 +82,5 @@ def empty_screen():
         root.update()
 
 
-# @execute_this
 def testing():
     empty_screen()
